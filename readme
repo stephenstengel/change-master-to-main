@@ -1,7 +1,14 @@
-You can rename your master branch to main in three steps:
+You can rename your master branch to main in four steps:
 
+1. Rename the branch localy.
 git branch -m master main
+
+2. push it to your git host.
 git push -u origin main
+
+3. Change your default branch on your git host.
+
+4. Delete the master branch through the gui or using this.
 git push origin :master
 
 See these links for more info:
