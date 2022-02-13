@@ -1,0 +1,9 @@
+You can rename your master branch to main in three steps:
+
+git branch -m master main
+git push -u origin main
+git push origin :master
+
+See these links for more info:
+https://www.hanselman.com/blog/easily-rename-your-git-default-branch-from-master-to-main
+https://stackoverflow.com/questions/17546171/how-to-delete-a-remote-branch-using-git
